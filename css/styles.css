@@ -1,0 +1,149 @@
+#test,body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #FF7F3F;
+  color: white;
+  padding: 3% 13% 10%;
+}
+
+#title1,h1{
+
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* navigation bar */
+.navbar.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat' ,sans-serif;
+}
+
+/* download buttons */
+.db{
+  margin: 10% 5% 5% 0%;
+}
+
+/* title image */
+.ti{
+  width: 25%;
+  transform: rotate(20deg);
+  margin-left: 40px;
+  position: absolute;
+}
+
+/* features */
+#features{
+  padding: 10% 10%;
+  background-color: #fff;
+  position: relative;
+}
+.hof{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.featurebox{
+  text-align: center;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #FFAB76;
+  margin-bottom: 1.2rem;
+}
+.icon:hover{
+ color: #FF7F3F;
+}
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #FFAB76;
+  color: #ffff;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+
+.th2{
+  font-family:"Montserrat" ,sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.timage{
+  width: 15%;
+  border-radius: 100%;
+  margin: 30px 20px 30px 30px;
+}
+
+#press{
+  background-color: #FFAB76;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.pressimg{
+  width: 13%;
+  margin: 40px 35px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+.price{
+  text-align: center;
+  line-height: 2rem;
+}
+#price2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+#price3{
+  padding: 40px;
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+
+  .ti{
+    position: static;
+    transform: rotate(0deg);
+    padding-top: 30px;
+    width: 50%;
+
+  }
+  #title1,h1{
+  text-align: center;
+  }
+}
+
+#cta{
+  text-align: center;
+  background-color: #FF7F3F;
+  padding: 80px;
+}
+
+.cta{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900 ;
+  line-height: 2;
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+}
