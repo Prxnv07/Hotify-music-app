@@ -1,2 +1,3 @@
 # Hotify-music-app
-Responsive web site for music app ! Hotify.
+Responsive web site for hypothetical music app ! Hotify.
+(project)
